@@ -2,6 +2,7 @@
 
 > SeedanceAI Video Generator | Image & Text to Video
 
+[![MCP Badge](https://lobehub.com/badge/mcp/rocnubie-seedanceai-mcp)](https://lobehub.com/mcp/rocnubie-seedanceai-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Stdio Transport](https://img.shields.io/badge/transport-stdio-6e6e6e)](https://modelcontextprotocol.io/specification)
 [![Zero Config](https://img.shields.io/badge/setup-zero--config-7c3aed)](#installation)
@@ -61,19 +62,33 @@ _Input:_ no parameters. _Returns:_ text/markdown.
 - `site://seedanceai/faq` — Short FAQ generated from public site metadata.
 - `site://seedanceai/links` — Canonical URLs to share with users.
 
+## Prompts
+
+### `tell_me_about_seedanceai`
+Summarize what the site is, who it's for, and how it works. — SeedanceAI
+
+### `try_image_style_seedanceai`
+Recommend a starting image-generation style for a stated goal. — SeedanceAI
+
 ## Installation
 
-Clone the repository and point your MCP client at the local entry point.
+### Install via Smithery
 
 ```bash
-git clone https://github.com/<your-account>/seedanceai-mcp.git
+npx -y @smithery/cli install seedanceai-mcp --client claude
+```
+
+(Replace `claude` with `cursor`, `windsurf`, or `continue` for those clients.)
+
+### Install from source
+
+```bash
+git clone https://github.com/rocnubie/seedanceai-mcp.git
 cd seedanceai-mcp
 pnpm install
 ```
 
-### Claude Desktop
-
-Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
+Then add to your MCP client config (`claude_desktop_config.json` for Claude Desktop, `mcp.json` for Cursor / Windsurf / Continue):
 
 ```json
 {
@@ -87,10 +102,6 @@ Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
   }
 }
 ```
-
-### Cursor / Windsurf / Continue
-
-Use the same `mcpServers` block in your client's MCP configuration file.
 
 ### Debug with MCP Inspector
 
@@ -112,7 +123,6 @@ npx @modelcontextprotocol/inspector node src/index.mjs
 ```bash
 pnpm install
 pnpm start                 # run the server over stdio
-pnpm test                  # run the package tests
 ```
 
 ## License

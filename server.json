@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rocnubie/seedanceai-mcp",
+  "title": "SeedanceAI MCP",
+  "description": "Create AI videos with SeedanceAI by text to video, text to image, image editing, and image to",
+  "version": "0.1.0",
+  "websiteUrl": "https://seedanceai.online",
+  "repository": {
+    "url": "https://github.com/rocnubie/seedanceai-mcp",
+    "source": "github"
+  }
+}
