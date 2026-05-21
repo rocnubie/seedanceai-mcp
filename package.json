@@ -1,0 +1,29 @@
+{
+  "name": "msa-seedanceai-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for SeedanceAI — canonical website knowledge for AI clients.",
+  "homepage": "https://seedanceai.online",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "claude",
+    "cursor",
+    "windsurf",
+    "seedanceai",
+    "image-gen",
+    "video-gen",
+    "image-inspiration",
+    "video-inspiration",
+    "pricing"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

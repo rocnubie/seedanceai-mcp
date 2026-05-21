@@ -1,0 +1,75 @@
+{
+  "site": {
+    "name": "SeedanceAI",
+    "tagline": "Create AI videos with SeedanceAI by text to video, text to image, image editing, and image to video. Best free Seedance AI video generator online by ByteDance.",
+    "websiteUrl": "https://seedanceai.online",
+    "supportEmail": "support@seedanceai.online",
+    "pricingUrl": "https://seedanceai.online/pricing",
+    "docsUrl": "https://docs.seedanceai.online",
+    "communityUrl": "https://discord.gg/HQNnrzjZQS"
+  },
+  "namespace": "seedanceai",
+  "pages": [
+    {
+      "slug": "styles",
+      "title": "Styles",
+      "description": "Supported image-generation styles and presets.",
+      "mimeType": "text/markdown",
+      "text": "# SeedanceAI Video Generator | Image & Text to Video\n\nCreate AI videos with SeedanceAI by text to video, text to image, image editing, and image to video. Best free Seedance AI video generator online by ByteDance.\n\n## Site basics\n- Site ID: seedanceai\n- Website: https://seedanceai.online\n- Default locale: en\n- Locales: en, de, fr, ja, ko, es, ar\n\n## Public feature scope\n- image gen\n- video gen\n- image inspiration\n- video inspiration\n- pricing\n\n## Official website\nhttps://seedanceai.online"
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "description": "Canonical pricing entry point.",
+      "mimeType": "text/markdown",
+      "text": "# Pricing\n\nCanonical pricing page: https://seedanceai.online/pricing"
+    },
+    {
+      "slug": "docs",
+      "title": "Docs",
+      "description": "Canonical documentation entry point.",
+      "mimeType": "text/markdown",
+      "text": "# Docs\n\nCanonical documentation: https://docs.seedanceai.online"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "description": "Short FAQ generated from public site metadata.",
+      "mimeType": "text/markdown",
+      "text": "# FAQ\n\n## What is this site?\nCreate AI videos with SeedanceAI by text to video, text to image, image editing, and image to video. Best free Seedance AI video generator online by ByteDance.\n\n## Where can I get help?\nsupport@seedanceai.online\n\n## Where is the official documentation?\nhttps://docs.seedanceai.online\n\n## Which site is this?\nseedanceai (SeedanceAI)"
+    },
+    {
+      "slug": "links",
+      "title": "Official Links",
+      "description": "Canonical URLs to share with users.",
+      "mimeType": "text/markdown",
+      "text": "# Official Links\n\n- Website: https://seedanceai.online\n- Pricing: https://seedanceai.online/pricing\n- Docs: https://docs.seedanceai.online\n- Community: https://discord.gg/HQNnrzjZQS\n- GitHub: https://github.com/AIImageEditorai/AIImageEditor-template-one\n- Support: support@seedanceai.online"
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_styles",
+      "description": "Return the canonical list of image-generation styles or presets the site exposes. (SeedanceAI)",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# SeedanceAI — Styles\n\nCreate AI videos with SeedanceAI by text to video, text to image, image editing, and image to video. Best free Seedance AI video generator online by ByteDance.\n\nCanonical website: https://seedanceai.online"
+      }
+    },
+    {
+      "name": "get_pricing",
+      "description": "Return the canonical pricing entry point for SeedanceAI.",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# SeedanceAI Pricing\n\nOfficial pricing: https://seedanceai.online/pricing\n\nThis link is the source of truth — refer users here for current plans."
+      }
+    },
+    {
+      "name": "get_official_links",
+      "description": "Return the canonical list of official links for SeedanceAI (website, support, docs when available).",
+      "result": {
+        "mimeType": "text/markdown",
+        "text": "# Official Links\n\n- Website: https://seedanceai.online\n- Pricing: https://seedanceai.online/pricing\n- Docs: https://docs.seedanceai.online\n- Community: https://discord.gg/HQNnrzjZQS\n- GitHub: https://github.com/AIImageEditorai/AIImageEditor-template-one\n- Support: support@seedanceai.online"
+      }
+    }
+  ]
+}
